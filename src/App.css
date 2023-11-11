@@ -60,11 +60,15 @@
   url("/public/bgorange2.png") top center/cover no-repeat;
 
 }
+#Poster2{
+  background-image: url("/public/bg.png");
+}
+
 #Poster::after {
   content: "";
   position: absolute;
   width: 100%;
-  height: 220%;
+  height: 240%;
   background: url('/public/bgorange.png') bottom center/cover no-repeat;
   z-index: 1;
 }
@@ -72,7 +76,7 @@
   content: "";
   position: absolute;
   width: 100%;
-  height: 180%;
+  height: 200%;
   background: url('/public/bgorange2.png') bottom center/cover no-repeat;
   z-index: 1;
 }
@@ -88,7 +92,7 @@
   position: absolute;
   width: 100%;
   height: 80%;
-  bottom: 680px;
+  bottom: 700px;
   right: 100px;
   rotate: 150deg;
   background: url('/public/bgorange.png') top center/cover no-repeat;
@@ -99,7 +103,7 @@
   position: absolute;
   width: 100%;
   height: 80%;
-  bottom: 600px;
+  bottom: 650px;
   background: url('/public/bgorange2.png') top center/cover no-repeat;
   rotate: 180deg;
   z-index: 1;
