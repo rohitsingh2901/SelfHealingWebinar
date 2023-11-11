@@ -6,7 +6,7 @@ import { Player } from 'video-react';
 function App() {
   return (
     <>
-    <div className='row'>
+    <div id='maindiv' className='row'>
       <div className='col-6'>
         <div id='Poster' className='row'>
         <div id='leftPoster' className='col-6 pt-24 flex flex-col items-center'>

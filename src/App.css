@@ -50,6 +50,8 @@
   background-color:gray
 }
 #Poster{
+  min-width: 800px;
+  width: 100%;
   position: relative;
   overflow: hidden;
   background:
@@ -120,4 +122,12 @@ ol li {
   width: 350px;
   border-radius: 50%;
   border: 12px solid #ff990f;
+}
+@media screen and (max-width: 1600px) {
+  #maindiv{
+    flex-direction: column;
+  }
+  #Poster2{
+    min-width: 800px
+  }
 }
