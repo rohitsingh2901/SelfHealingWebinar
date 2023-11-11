@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SelfHealingWebinar/static/css/main.8a595ab6.css",
+    "main.js": "/SelfHealingWebinar/static/js/main.524a54d4.js",
+    "static/js/787.cbe66abc.chunk.js": "/SelfHealingWebinar/static/js/787.cbe66abc.chunk.js",
+    "static/media/bg.png": "/SelfHealingWebinar/static/media/bg.49b88b2002ef510f7bce.png",
+    "static/media/bgorange.png": "/SelfHealingWebinar/static/media/bgorange.2445b7e9c0c118396fd6.png",
+    "static/media/bgorange2.png": "/SelfHealingWebinar/static/media/bgorange2.cfba8a10f75360070bcd.png",
+    "index.html": "/SelfHealingWebinar/index.html",
+    "main.8a595ab6.css.map": "/SelfHealingWebinar/static/css/main.8a595ab6.css.map",
+    "main.524a54d4.js.map": "/SelfHealingWebinar/static/js/main.524a54d4.js.map",
+    "787.cbe66abc.chunk.js.map": "/SelfHealingWebinar/static/js/787.cbe66abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a595ab6.css",
+    "static/js/main.524a54d4.js"
+  ]
+}
