@@ -1,0 +1,96 @@
+.heading2{
+    color: #085d5a;
+    background-color: #f3b61f;
+    padding: 4px 50px;
+    border-radius: 50px;
+}
+.heading2d{
+    color: #085d5a;
+    background-color: #f3b61f;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+  .headingw2{
+    color: #085d5a;
+  }
+  .gB{
+    background-color: #085d5a;
+    padding: 1px 10px;
+    border-radius: 50px;
+  }
+  .horizontalLine{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+  }
+  .sbox{
+    background-color: #085d5a;
+    width: 80%;
+    padding: 10px 10px;
+  }
+  #Poster2{
+    min-width: 800px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: url("/public/BuildingBg.png") -80%/cover no-repeat;
+    /* url("/public/dots.png") top center/cover no-repeat,
+    url("/public/greenCircle.png") top center/cover no-repeat; */
+  
+  }
+  #Poster2nd{
+    background-image: url("/public/bg.png");
+  }
+  
+  #leftPoster2{
+    position: relative;
+    overflow: hidden;
+    background:
+      url("/public/dots.png") top center/cover no-repeat,
+      url("/public/greenCircle.png") top center/cover no-repeat,
+  }
+  #leftPoster2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 200px;
+    right: 150px;
+    background: url('/public/dots.png') top center/cover no-repeat;
+    background-size: 20%;
+    z-index: 1;
+  }
+  #leftPoster2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    right: 200px;
+    bottom: 420px;
+    background: url('/public/greenCircle.png') top center/cover no-repeat;
+    background-size: 70%;
+    z-index: 1;
+  }
+  .Date{
+    height: 4vw;
+  }
+  ol li {
+    list-style: decimal;
+    list-style-position: inside;
+  }
+  #dp2{
+
+    border-radius: 50%;
+    border: 30px solid #085d5a;
+    padding: 10px;
+    
+  }
+  @media screen and (max-width: 1600px) {
+    #maindiv{
+      flex-direction: column;
+    }
+    #Poster2{
+      min-width: 800px
+    }
+  }

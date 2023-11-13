@@ -1,0 +1,94 @@
+.heading{
+    color: dimgrey;
+  }
+  .headingw{
+    color: darkorange;
+  }
+  .horizontalLine{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+  }
+  #Poster{
+    min-width: 800px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background:
+    url("/public/bg.png") center/cover no-repeat,
+    url("/public/bgorange.png") bottom center/cover no-repeat,
+    url("/public/bgorange.png") top center/cover no-repeat,
+    url("/public/bgorange2.png") bottom center/cover no-repeat,
+    url("/public/bgorange2.png") top center/cover no-repeat;
+  
+  }
+  #Poster2nd{
+    background-image: url("/public/bg.png");
+  }
+  
+  #Poster::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 240%;
+    background: url('/public/bgorange.png') bottom center/cover no-repeat;
+    z-index: 1;
+  }
+  #Poster::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background: url('/public/bgorange2.png') bottom center/cover no-repeat;
+    z-index: 1;
+  }
+  #leftPoster{
+    position: relative;
+    overflow: hidden;
+    background:
+      url("/public/bgorange.png") top center/cover no-repeat,
+      url("/public/bgorange2.png") top center/cover no-repeat,
+  }
+  #leftPoster::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 700px;
+    right: 100px;
+    rotate: 150deg;
+    background: url('/public/bgorange.png') top center/cover no-repeat;
+    z-index: 1;
+  }
+  #leftPoster::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 650px;
+    background: url('/public/bgorange2.png') top center/cover no-repeat;
+    rotate: 180deg;
+    z-index: 1;
+  }
+  .Date{
+    height: 4vw;
+  }
+  ol li {
+    list-style: decimal;
+    list-style-position: inside;
+  }
+  #dp{
+    height: 50px;
+    width: 350px;
+    border-radius: 50%;
+    border: 12px solid #ff990f;
+  }
+  @media screen and (max-width: 1600px) {
+    #maindiv{
+      flex-direction: column;
+    }
+    #Poster2{
+      min-width: 800px
+    }
+  }
