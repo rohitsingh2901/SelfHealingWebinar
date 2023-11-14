@@ -48,15 +48,15 @@ const Card2 = () => {
           <img src='Logo.png' className='w-50' alt='Logo'></img>
           <h5>Your Body is Speaking,</h5>
           <h5>Are you Listening!</h5>
-          <div>
-            <h4>JOIN TO KNOW</h4>
+          <div className='mt-24'>
+            <h4>తెలుసుకోవడానికి చేరండి</h4>
             <ol>
-            <li>PHILOSOPHY</li>
-            <li>PHYSIOLOGY OF 5 ELEMENTS</li>
-            <li>PULSE DIAGNOSIS</li>
-            <li>10 POINTS</li>
-            <li>DIET</li>
-            <li>Q & A</li>
+            <li>ఫిలాసఫీ</li>
+            <li className='text-xl'>5 మూలకాల యొక్క ఫిజియాలజీ</li>
+            <li className='text-xl'>పల్స్ డయాగ్నోసిస్</li>
+            <li className='text-xl'>10 పాయింట్లు</li>
+            <li className='text-xl'>ఆహారం</li>
+            <li className='text-xl'>Q & A</li>
             </ol>
           </div>
           <img id='dp2' className="z-20" src='Dp2.png' alt='DP'></img>

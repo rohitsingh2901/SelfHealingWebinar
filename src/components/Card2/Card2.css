@@ -34,10 +34,19 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: url("/public/BuildingBg.png") -80%/cover no-repeat;
-    /* url("/public/dots.png") top center/cover no-repeat,
-    url("/public/greenCircle.png") top center/cover no-repeat; */
-  
+    background: 
+      url("/public/BuildingBg.png") -80%/cover no-repeat;
+  }
+  #Poster2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background: url('/public/YellowCircle.png') bottom center/cover no-repeat;
+    background-size: 220px;
+    bottom: -100px;
+    left: 400px;
+    z-index: 40;
   }
   #Poster2nd{
     background-image: url("/public/bg.png");
@@ -80,11 +89,9 @@
     list-style-position: inside;
   }
   #dp2{
-
     border-radius: 50%;
     border: 30px solid #085d5a;
     padding: 10px;
-    
   }
   @media screen and (max-width: 1600px) {
     #maindiv{
