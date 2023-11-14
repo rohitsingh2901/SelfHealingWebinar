@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.31573616.css",
-    "main.js": "/static/js/main.29470512.js",
-    "static/js/787.cbe66abc.chunk.js": "/static/js/787.cbe66abc.chunk.js",
-    "static/media/BuildingBg.png": "/static/media/BuildingBg.7159b3bca9b39c6102af.png",
-    "static/media/bg.png": "/static/media/bg.49b88b2002ef510f7bce.png",
-    "static/media/bgorange.png": "/static/media/bgorange.2445b7e9c0c118396fd6.png",
-    "static/media/dots.png": "/static/media/dots.50f26de1bbb578d54d70.png",
-    "static/media/greenCircle.png": "/static/media/greenCircle.af94bae2304083e2018b.png",
-    "static/media/YellowCircle.png": "/static/media/YellowCircle.780ff0ff5124816efa40.png",
-    "static/media/bgorange2.png": "/static/media/bgorange2.cfba8a10f75360070bcd.png",
-    "index.html": "/index.html",
-    "main.31573616.css.map": "/static/css/main.31573616.css.map",
-    "main.29470512.js.map": "/static/js/main.29470512.js.map",
-    "787.cbe66abc.chunk.js.map": "/static/js/787.cbe66abc.chunk.js.map"
+    "main.css": "/SelfHealingWebinar/static/css/main.4d18644e.css",
+    "main.js": "/SelfHealingWebinar/static/js/main.f1f06e1c.js",
+    "static/js/787.cbe66abc.chunk.js": "/SelfHealingWebinar/static/js/787.cbe66abc.chunk.js",
+    "static/media/BuildingBg.png": "/SelfHealingWebinar/static/media/BuildingBg.7159b3bca9b39c6102af.png",
+    "static/media/LinesWaves.png": "/SelfHealingWebinar/static/media/LinesWaves.4b271eb39f687a3becbb.png",
+    "static/media/bg.png": "/SelfHealingWebinar/static/media/bg.49b88b2002ef510f7bce.png",
+    "static/media/bgorange.png": "/SelfHealingWebinar/static/media/bgorange.2445b7e9c0c118396fd6.png",
+    "static/media/dots.png": "/SelfHealingWebinar/static/media/dots.50f26de1bbb578d54d70.png",
+    "static/media/greenCircle.png": "/SelfHealingWebinar/static/media/greenCircle.af94bae2304083e2018b.png",
+    "static/media/YellowCircle.png": "/SelfHealingWebinar/static/media/YellowCircle.780ff0ff5124816efa40.png",
+    "static/media/bgorange2.png": "/SelfHealingWebinar/static/media/bgorange2.cfba8a10f75360070bcd.png",
+    "index.html": "/SelfHealingWebinar/index.html",
+    "main.4d18644e.css.map": "/SelfHealingWebinar/static/css/main.4d18644e.css.map",
+    "main.f1f06e1c.js.map": "/SelfHealingWebinar/static/js/main.f1f06e1c.js.map",
+    "787.cbe66abc.chunk.js.map": "/SelfHealingWebinar/static/js/787.cbe66abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31573616.css",
-    "static/js/main.29470512.js"
+    "static/css/main.4d18644e.css",
+    "static/js/main.f1f06e1c.js"
   ]
 }
