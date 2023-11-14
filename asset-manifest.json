@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/SelfHealingWebinar/static/css/main.4d18644e.css",
-    "main.js": "/SelfHealingWebinar/static/js/main.f1f06e1c.js",
+    "main.css": "/SelfHealingWebinar/static/css/main.9cf59f7e.css",
+    "main.js": "/SelfHealingWebinar/static/js/main.d441d13b.js",
     "static/js/787.cbe66abc.chunk.js": "/SelfHealingWebinar/static/js/787.cbe66abc.chunk.js",
     "static/media/BuildingBg.png": "/SelfHealingWebinar/static/media/BuildingBg.7159b3bca9b39c6102af.png",
-    "static/media/LinesWaves.png": "/SelfHealingWebinar/static/media/LinesWaves.4b271eb39f687a3becbb.png",
+    "static/media/ringTop.png": "/SelfHealingWebinar/static/media/ringTop.4f80566c42296881e9b9.png",
+    "static/media/LinesWaves.png": "/SelfHealingWebinar/static/media/LinesWaves.68b039633a68c1c762b0.png",
     "static/media/bg.png": "/SelfHealingWebinar/static/media/bg.49b88b2002ef510f7bce.png",
     "static/media/bgorange.png": "/SelfHealingWebinar/static/media/bgorange.2445b7e9c0c118396fd6.png",
     "static/media/dots.png": "/SelfHealingWebinar/static/media/dots.50f26de1bbb578d54d70.png",
@@ -12,12 +13,12 @@
     "static/media/YellowCircle.png": "/SelfHealingWebinar/static/media/YellowCircle.780ff0ff5124816efa40.png",
     "static/media/bgorange2.png": "/SelfHealingWebinar/static/media/bgorange2.cfba8a10f75360070bcd.png",
     "index.html": "/SelfHealingWebinar/index.html",
-    "main.4d18644e.css.map": "/SelfHealingWebinar/static/css/main.4d18644e.css.map",
-    "main.f1f06e1c.js.map": "/SelfHealingWebinar/static/js/main.f1f06e1c.js.map",
+    "main.9cf59f7e.css.map": "/SelfHealingWebinar/static/css/main.9cf59f7e.css.map",
+    "main.d441d13b.js.map": "/SelfHealingWebinar/static/js/main.d441d13b.js.map",
     "787.cbe66abc.chunk.js.map": "/SelfHealingWebinar/static/js/787.cbe66abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d18644e.css",
-    "static/js/main.f1f06e1c.js"
+    "static/css/main.9cf59f7e.css",
+    "static/js/main.d441d13b.js"
   ]
 }
