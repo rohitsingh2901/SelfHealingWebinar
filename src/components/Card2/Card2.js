@@ -1,6 +1,4 @@
 import React from 'react'
-import 'video-react/dist/video-react.css';
-import { Player } from 'video-react';
 import './Card2.css'
 
 const Card2 = () => {
@@ -65,11 +63,7 @@ const Card2 = () => {
       </div>
       <div id='Poster2nd' className='col-6 flex flex-col items-center justify-center'>
       <h1 className='font-extrabold text-orange-600 text-center' >You want to start today?</h1>
-      <Player
-      playsInline
-      poster="/assets/poster.png"
-      src="https://drive.google.com/file/d/1D_RrgR3qO5arpBm1sUIzrgCLYaKBoVc-/preview"
-      />
+      <iframe className='w-100' title='Video' src="https://drive.google.com/file/d/1D_RrgR3qO5arpBm1sUIzrgCLYaKBoVc-/preview" width="640" height="480" allow="autoplay"></iframe>
       <div className='flex items-center justify-center'>
       <h4>Click right away to start</h4><a className='text-white hover:no-underline'  rel='noreferrer' target='_blank' href="https://surveyheart.com/form/644a2ee13bdb09289bc71341"><button className='btn btn-success mx-2 my-2'>START NOW</button></a>
       </div>

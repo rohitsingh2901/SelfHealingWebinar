@@ -1,6 +1,4 @@
 import React from 'react'
-import 'video-react/dist/video-react.css';
-import { Player } from 'video-react';
 import './Card3.css'
 
 const Card3 = () => {
@@ -32,7 +30,7 @@ const Card3 = () => {
             </ol>
           </div>
           <h5 className='font-extrabold Rs pt-2 pb-2 pl-2 pr-2 text-center'>ಕನ್ನಡದಲ್ಲಿ ಅಧಿವೇಶನಗಳು</h5>
-          <div className='flex flex-col text-white mt-24'>
+          <div className='flex flex-col Sm mt-24 font-bold'>
             <div className='flex items-center z-20'>
             <i className="fa-solid fa-play mr-2"></i><p className='m-0'>Doctor Yourself</p>
             </div>
@@ -51,19 +49,17 @@ const Card3 = () => {
           <img src='Logo.png' className='w-50' alt='Logo'></img>
           <h5>Your Body is Speaking,</h5>
           <h5>Are you Listening!</h5>
-          {/* <img id='dp' className="h-50 z-20" src='Dp.png' alt='DP'></img> */}
-          {/* <h6 className='z-20 text-white'>Speaker - Deepta Manohar</h6>
-          <h6 className='z-20 text-white'>Author - Six secrets to Doctor Yourself</h6> */}
+          <img className='mt-16 z-20 -mr-8' src='Dp3.png' alt='DP'></img>
+          <div className='z-20 BelowDiv -mr-20'>
+          <h6 className='font-extrabold text-white'>ಭಾಷಣಕಾರ- ದೀಪ್ತಾ ಮನೋಹರ್</h6>
+          <h6 className='font-extrabold text-white'>ಲೇಖಕ- ಆರು ರಹಸ್ಯಗಳು ನೀವೇ ವೈದ್ಯರು</h6>
+          </div>
         </div>
         </div>
       </div>
       <div id='Poster2nd' className='col-6 flex flex-col items-center justify-center'>
       <h1 className='font-extrabold text-orange-600 text-center' >You want to start today?</h1>
-      <Player
-      playsInline
-      poster="/assets/poster.png"
-      src="https://drive.google.com/file/d/1D_RrgR3qO5arpBm1sUIzrgCLYaKBoVc-/preview"
-      />
+      <iframe className='w-100' title='Video' src="https://drive.google.com/file/d/1D_RrgR3qO5arpBm1sUIzrgCLYaKBoVc-/preview" width="640" height="480" allow="autoplay"></iframe>
       <div className='flex items-center justify-center'>
       <h4>Click right away to start</h4><a className='text-white hover:no-underline'  rel='noreferrer' target='_blank' href="https://surveyheart.com/form/644a2ee13bdb09289bc71341"><button className='btn btn-success mx-2 my-2'>START NOW</button></a>
       </div>

@@ -49,6 +49,7 @@
     z-index: 40;
   }
   #Poster2nd{
+    min-width: 800px;
     background-image: url("/public/bg.png");
   }
   
