@@ -12,7 +12,7 @@ const Card3 = () => {
           <h1 className='font-extrabold headingw3'>ಕಾರ್ಯಾಗಾರ</h1>
           <h2 className='font-bold heading3'>ಆನ್‌ಲೈನ್/ಆಫ್‌ಲೈನ್</h2>
           <div className='flex justify-end items-center'>
-          <img className='Date ml-12' src='cal.png' alt='Date'></img>
+          <img className='Date ml-12' src='Cal.png' alt='Date'></img>
           <h2 className='font-extrabold heading w-75 mx-2'>ಮಂಗಳವಾರ, ನವೆಂಬರ್ 7 <br></br><p className='font-medium'>10:30am-12:30pm</p></h2>
           </div>
 
