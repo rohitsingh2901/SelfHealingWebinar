@@ -74,7 +74,18 @@
     #maindiv{
       flex-direction: column;
     }
-    #Poster2{
-      min-width: 800px
+    #Poster3{
+      width: 100vw;
+    }
+   
+  }
+  @media screen and (max-width: 1600px) {
+    #Poster2nd{
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #Poster2nd{
+      min-width: 800px;
     }
   }

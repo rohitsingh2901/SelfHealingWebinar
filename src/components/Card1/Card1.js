@@ -30,7 +30,7 @@ const Card1 = () => {
             <li>Q & A</li>
             </ol>
           </div>
-          <div className='flex flex-col text-white mt-24'>
+          <div id="SM1" className='flex flex-col text-white mt-24'>
             <div className='flex items-center z-20'>
             <i className="fa-solid fa-play mr-2"></i><p className='m-0'>Doctor Yourself</p>
             </div>
@@ -49,7 +49,7 @@ const Card1 = () => {
           <img src='Logo.png' className='w-50' alt='Logo'></img>
           <h5>Your Body is Speaking,</h5>
           <h5>Are you Listening!</h5>
-          <div className='flex items-center mt-32'>
+          <div id='DateMOb' className='flex items-center mt-32'>
           <img className='Date' src='watch.png' alt='Date'></img>
           <h2 className='font-extrabold heading'>10:30am-12:30pm</h2>
           </div>

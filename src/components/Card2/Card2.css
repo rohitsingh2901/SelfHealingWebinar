@@ -99,6 +99,38 @@
       flex-direction: column;
     }
     #Poster2{
-      min-width: 800px
+      width: 100vw;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    #Poster2nd{
+      min-width: 100%;
+    }
+    #leftPoster2::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 80%;
+      right: 200px;
+      bottom: 620px;
+      background: url('/public/greenCircle.png') top center/cover no-repeat;
+      background-size: 70%;
+      z-index: 1;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #Poster2nd{
+      min-width: 800px;
+    }
+    #leftPoster2::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 80%;
+      right: 200px;
+      bottom: 420px;
+      background: url('/public/greenCircle.png') top center/cover no-repeat;
+      background-size: 70%;
+      z-index: 1;
     }
   }

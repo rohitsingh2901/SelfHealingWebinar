@@ -12,7 +12,6 @@
   }
   #Poster{
     min-width: 800px;
-    width: 100%;
     position: relative;
     overflow: hidden;
     background:
@@ -89,7 +88,20 @@
     #maindiv{
       flex-direction: column;
     }
-    #Poster2{
-      min-width: 800px
+    #Poster{
+      width: 100vw;
+    }
+    #SM1{
+     margin-top: 210px;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    #Poster2nd{
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    #Poster2nd{
+      min-width: 800px;
     }
   }

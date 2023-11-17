@@ -8,9 +8,9 @@ const Card2 = () => {
         <div id='Poster2' className='row'>
         <div id='leftPoster2' className='col-6 pt-24 flex flex-col items-center'>
           <h1 className='text-center font-extrabold heading2 z-20'>జీవించు</h1>
-          <h1 className='text-center font-extrabold text-6xl headingw2 ml-12 -mt-4'>వెబ్నార్</h1>
-          <h2 className='headingw2'>సెల్ఫ్ హీలింగ్ వర్క్‌షాప్</h2>
-          <h2 className='font-extrabold heading'>ఆన్‌లైన్/ఆఫ్‌లైన్</h2>
+          <h1 className='text-center font-extrabold text-6xl headingw2 ml-12 -mt-4 z-20'>వెబ్నార్</h1>
+          <h2 className='headingw2 z-20'>సెల్ఫ్ హీలింగ్ వర్క్‌షాప్</h2>
+          <h2 className='font-extrabold heading z-20'>ఆన్‌లైన్/ఆఫ్‌లైన్</h2>
           <h4 className='text-left font-extrabold heading2 z-20'><i>MONDAY</i></h4>
           <h2 className='headingw2'>10:30am-12:30pm</h2>
           <h2 className='headingw2 -mt-2'>November 13</h2>
